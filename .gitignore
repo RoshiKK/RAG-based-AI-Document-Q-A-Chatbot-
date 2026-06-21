@@ -1,26 +1,15 @@
-# =========================
-# DEPENDENCIES
-# =========================
-
-# Node / Frontend
 frontend/node_modules/
 node_modules/
 
-# Python / Backend
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.pyc
 
-# Virtual environment
 venv/
 .env/
 .env.*
-
-# =========================
-# ENV FILES (CRITICAL)
-# =========================
 
 backend/.env
 frontend/.env
@@ -29,60 +18,35 @@ frontend/.env
 .env.development
 .env.production
 
-# =========================
-# BUILD OUTPUTS
-# =========================
 
-# React / Vite / Next
 frontend/build/
 frontend/dist/
 .next/
 out/
 
-# Python cache
+
 .pytest_cache/
 .mypy_cache/
 *.egg-info/
 
-# =========================
-# LOGS
-# =========================
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# =========================
-# SYSTEM FILES
-# =========================
 
 .DS_Store
 Thumbs.db
 
-# =========================
-# DATABASE / LOCAL FILES
-# =========================
-
 *.sqlite
 *.db
-
-# =========================
-# IDE FILES
-# =========================
 
 .vscode/
 .idea/
 
-# =========================
-# PYTHON ENV SPECIFIC
-# =========================
 
 *.log
 
-# =========================
-# SECURITY (IMPORTANT)
-# =========================
 
-# prevent accidental API key commits anywhere
 **/*.env
